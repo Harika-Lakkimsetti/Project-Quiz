@@ -1,0 +1,57 @@
+h1, h2, h3, h4, h5, h6 {
+   font-family: "Playfair Display";
+   letter-spacing: 5px;
+ }
+ 
+ .padding-card{
+  padding: 8px 16px!important;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.button1{
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  
+}
+.button1:hover{
+  background-color: rgb(218, 214, 214);
+}
+.right{
+  float: right !important;
+  padding: auto;
+}
+.c{
+  max-width: 980px;
+  padding: 16px 16px!important;
+}
+.tl{
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color:black;
+  padding: 8px 16px!important;
+  color: whitesmoke;
+}
+.padd{
+  padding-top: 32px!important;
+  padding-bottom: 32px!important;
+}
+.bb{
+  border-bottom: 1px solid #ccc!important;
+  border:lightgrey;
+  padding-top: 16px!important;
+  padding-bottom: 16px!important;
+}
+.con{
+  position: relative;
+}
+
+     
+  
+     

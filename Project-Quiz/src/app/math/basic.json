@@ -1,0 +1,52 @@
+[
+    {
+      "id":1,
+     
+      "Question":"What is the sum of 130+125+191?",
+       "option1":" 335",
+       "option2":"456",
+       "option3":"446",
+       "option4":"426",
+       "Ans":"446"
+    },
+    {
+      "id":2,
+     
+      "Question":" If we minus 712 from 1500, how much do we get?",
+       "option1":"788",
+       "option2":"789",
+       "option3":"890",
+       "option4":"788",
+       "Ans":"788"
+    },
+    {
+      "id":3,
+     
+      "Question":" 50 times of 8 is equal to:?",
+       "option1":"234",
+       "option2":" 400",
+       "option3":"459",
+       "option4":"789",
+       "Ans":" 400"
+    },
+    {
+      "id":4,
+     
+      "Question":"20+(90÷2) is equal to",
+       "option1":"45",
+       "option2":"34",
+       "option3":"65",
+       "option4":"64",
+       "Ans":"65"
+    },
+    {
+      "id":5,
+     
+      "Question":"Find the missing terms in multiple of 3: 3, 6, 9, __, 15",
+       "option1":"10",
+       "option2":"13",
+       "option3":" 12",
+       "option4":"11",
+       "Ans":"12"
+    }
+]

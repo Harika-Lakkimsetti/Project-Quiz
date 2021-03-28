@@ -1,0 +1,46 @@
+<div class="head">
+    <h1><u>History Quiz</u></h1>
+    <h2>Gives instant answers by clicking on check point !!</h2>
+ </div>
+ <div class="model">
+ <div *ngFor ='let mo of history' class="forma">
+    <h4 style="font-family:Playfair Display; color:black;">&nbsp;{{mo.id}}.{{mo.Question}}</h4>
+  <form #myForm="ngForm" (submit) = " templateForm(myForm.value, [(mo.Ans)], [(mo.id)])">
+   
+    <div >
+       <input id="1" type="radio" value="{{mo.option1}}" name="gender" ngModel>
+       <label class="la"  for="1">&nbsp;{{mo.option1}}<br></label><br>
+    </div>
+   
+    <div >
+       <input id="2" type="radio"  value="{{mo.option2}}" name="gender" ngModel>
+       <label  class="la" for="2">&nbsp;{{mo.option2}}<br></label><br>
+    </div>
+   
+    <div >
+      <input id="3" type="radio"  value="{{mo.option3}}" name="gender" ngModel >
+      <label  class="la" for="3">&nbsp;{{mo.option3}}<br></label><br>
+   </div>
+   
+   <div >
+    <input id="4" type="radio"  value="{{mo.option4}}" name="gender" ngModel>
+    <label  class="la" for="4">&nbsp;{{mo.option4}}<br></label><br>
+  </div><button type="submit" class="btn btn-info" >check point!</button> <br>
+  </form>
+  <br>
+   
+  </div>
+ </div>
+  <br><br>
+  <div class="hi">
+  <button class="btn btn-danger" type="button" (click)="g()" >Get Score</button>
+ 
+  <br>
+  <h2>{{this.c}} / 5</h2>
+  <button class="btn btn-info btn "href="nav-link"[routerLink]="['/quiz']"> Back to Quiz Section </button>
+  <p></p>
+  <p></p>
+ </div>
+  
+      <router-outlet></router-outlet>
+ 

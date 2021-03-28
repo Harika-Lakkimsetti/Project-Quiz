@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+  <div class="top">
+    <div class="padding-card" style="letter-spacing:4px;">
+      <a href="#home" class="button1"><i class="bi bi-house-fill"></i>Home</a>
+      
+      <div class="right">
+        <a href="nav-link"[routerLink]="['/quiz']"class="button1"><i class="bi bi-patch-question-fill"></i> Quizes </a>
+        <a href="nav-link"[routerLink]="['/guide']"class="button1"><i class="bi bi-list-stars"></i>Guidelines </a>
+        <a href="nav-link"[routerLink]="['/instruct']"class="button1"><i class="bi bi-telephone-fill"></i> Contact </a>
+      </div>
+    </div>
+  </div>
+</body>
+<div class="main">
+    <div class="c" style="max-width:800px" id="contact">
+        <h2 class="w">CONTACT</h2>
+        <p class="op"><i>Have issue with Quiz ??</i></p>
+        <div class="w3-row w3-padding-32">
+          <div class="w3-col m6 w3-large w3-margin-bottom">
+            <i class="bi bi-geo-fill"></i> Rajahmundry ,Ap<br>
+            <i class="bi bi-telephone-fill"></i> Phone: +91 7336921141<br>
+             Email: Quiz@mail.com<br>
+          </div>
+          <div class="w3-col m6">
+            <form >
+              <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                <div class="w3-half">
+                  <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                </div>
+                <div class="w3-half">
+                  <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                </div>
+              </div>
+              <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"><br>
+              <button class="btn btn-info" type="button"(click)="g()">SEND</button>
+             
+            </form>
+          </div>
+        </div>
+      </div>
+</div>
+      
+

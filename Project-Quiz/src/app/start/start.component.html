@@ -1,0 +1,59 @@
+
+<div class="container">
+   
+ 
+
+    <div class= "any" style="font-size:30pt;"><b>All the best.!</b></div>
+    <div class ="style1">
+    <div *ngFor ='let mo of questionsList'>
+        <h2>{{mo.Question}}</h2>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+            <input type="radio" name="q1" aria-label="Radio button for following text input" value={{mo.option1}}>
+          </div>
+        </div>
+        <input type="text" class="form-control" aria-label="Text input with radio button" value="{{mo.option1}}" readonly>
+      </div>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+            <input type="radio" name="q1" aria-label="Radio button for following text input" value="{{mo.option2}}">
+          </div>
+        </div>
+        <input type="text" class="form-control" aria-label="Text input with radio button" value="{{mo.option2}}" readonly>
+      </div>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+            <input type="radio" name="q1"  aria-label="Radio button for following text input"  value="{{mo.option3}}">
+          </div>
+        </div>
+        <input type="text" class="form-control" aria-label="Text input with radio button" value="{{mo.option3}}" readonly>
+      </div>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+            <input type="radio" name="q1" aria-label="Radio button for following text input" value="{{mo.option4}}">
+          </div>
+        </div>
+        <input type="text" class="form-control" aria-label="Text input with radio button" value="{{mo.option4}}" readonly>
+      </div>
+      <br>
+      </div>
+      <br>
+    </div> 
+    <div class="container">
+    <div class="center">
+        <button type="submit" class="button1" onclick="checkAnswer()">Finish</button> 
+
+        </div>
+        <br>
+        <div>
+          <button type="submit" class="button1" onclick="checkAnswer()">Review</button>
+        </div>
+        
+        <br><br><br><br><br><br>
+        </div></div>
+        
+        

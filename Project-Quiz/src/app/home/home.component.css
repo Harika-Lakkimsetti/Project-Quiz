@@ -1,0 +1,35 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: Playfair Display;
+  letter-spacing: 5px;
+}
+   .padding-card{
+    padding: 8px 16px!important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  .button2{
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    
+  }
+  .button2:hover{
+    background-color: rgb(218, 214, 214);
+  }
+  .right{
+    float: right !important;
+    padding: auto;
+  }
+  .c{
+    position: relative;
+    letter-spacing:4px;
+  }
+ .image{
+   max-width:100%;
+   height:auto;
+ }   
